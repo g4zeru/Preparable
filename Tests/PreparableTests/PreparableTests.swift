@@ -6,7 +6,7 @@ final class PreparableTests: XCTestCase {
         let mock = Mock(count: 0)
         XCTAssertEqual(mock.count, 0)
         mock
-            .prepare {
+            .then {
                 $0.count = 100
             }
         XCTAssertEqual(mock.count, 100)

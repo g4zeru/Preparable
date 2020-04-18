@@ -7,7 +7,7 @@ import Foundation
 public protocol Preparable: AnyObject {}
 
 public extension Preparable {
-    @discardableResult func prepare(_ processingBlock: (Self) -> Void) -> Self {
+    @discardableResult func then(_ processingBlock: (Self) -> Void) -> Self {
         processingBlock(self)
         return self
     }
