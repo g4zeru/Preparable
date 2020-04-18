@@ -1,0 +1,6 @@
+included: 
+  - Sources
+  - Tests/PreparableTests
+excluded:
+  - Package.swift
+  - Tests/PreparableTests/XCTestManifests.swift
