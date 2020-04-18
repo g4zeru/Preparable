@@ -1,0 +1,3 @@
+--exclude Package.swift,Tests/LinuxMain.swift,Tests/PreparableTests/XCTestManifests.swift
+--swiftversion 5.1
+--commas inline
