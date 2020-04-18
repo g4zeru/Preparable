@@ -1,0 +1,1 @@
+mint run swiftformat swiftformat .
