@@ -13,4 +13,4 @@ public extension Preparable {
     }
 }
 
-public extension NSObject: Preparable {}
+extension NSObject: Preparable {}
